@@ -19,6 +19,7 @@ public class Teste {
         System.out.println("Digite a promoção desejada do funcionário: ");
         double promocao = scan.nextDouble();
         funcionarioUm.promoverSalario(promocao);
-
+        
+        
     }
 }
