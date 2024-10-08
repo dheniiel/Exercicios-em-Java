@@ -9,6 +9,6 @@ public class Email {
         System.out.println("Digite seu nome: ");
         String nomeUsu = scan.nextLine();
       
-        System.out.println(nomeUsu.trim().replaceAll("\\s+", " ").toLowerCase() + "@gmail.com");
+        System.out.println(nomeUsu.trim().replaceAll("\\s+", "").toLowerCase() + "@gmail.com");
     }
 }
