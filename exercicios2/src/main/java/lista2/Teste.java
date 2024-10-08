@@ -18,7 +18,9 @@ public class Teste {
         
         System.out.println("Digite a promoção desejada do funcionário: ");
         double promocao = scan.nextDouble();
-        funcionarioUm.promoverSalario(promocao);
+        
+        System.out.println("O salário com promoçaõ é de: " + funcionarioUm.promoverSalario(promocao));
+        System.out.println("O salário com promção ao longo do ano fica: " + funcionarioUm.cacularSalario());
         
         
     }

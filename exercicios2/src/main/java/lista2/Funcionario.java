@@ -15,7 +15,6 @@ public class Funcionario {
         return this.salario;
     }
     public double cacularSalario(){
-        this.salario *= 12;
-        return this.salario;
+        return this.salario * 12;
     }
 }
